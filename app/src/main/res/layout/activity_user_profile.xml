@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".UserProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="Firstname : "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtFirstName_UserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#e0e0e0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="Surname : "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtSurName_UserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#e0e0e0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="Age : "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtAge_UserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#e0e0e0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="Phone number : "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtPhoneNumber_UserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#e0e0e0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:text="Address : "
+            android:textColor="#616161"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtAddress_UserProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="#e0e0e0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEdit_UserProfile"
+            android:layout_marginEnd="5dp"
+            android:textColor="#fff"
+            android:background="#212121"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:text="Edit" />
+        <Button
+            android:id="@+id/btnConfirm_UserProfile"
+            android:textColor="#2196f3"
+            android:background="#212121"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:text="Confirm" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

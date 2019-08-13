@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Task3Activity">
+
+
+
+
+    <EditText
+        android:id="@+id/edtFirstName_UserData"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Firstname"
+        android:inputType="text"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#616161"
+        />
+
+    <EditText
+        android:id="@+id/edtSurName_UserData"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Surname"
+        android:inputType="text"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#616161" />
+
+
+    <EditText
+        android:id="@+id/edtAge_UserData"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:hint="Your Age"
+        android:inputType="phone"
+        android:maxLength="2"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#616161" />
+
+
+
+
+    <EditText
+        android:id="@+id/edtPhoneNumber_UserData"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Your Phone Number (with +98)"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#616161" />
+
+
+
+    <EditText
+        android:id="@+id/edtAddress_UserData"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Your Address"
+        android:textColor="#e0e0e0"
+        android:textColorHint="#616161" />
+
+
+    <Button
+        android:id="@+id/btnNext_UserData"
+        android:textColor="#e0e0e0"
+        android:layout_marginTop="30dp"
+        android:text="next"
+        android:background="#212121"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/txtSuccessMessage_UserData"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="#8bc34a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

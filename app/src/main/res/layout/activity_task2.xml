@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Task2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Please enter your Phone Number : "
+        android:textColor="#e0e0e0"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/edtEnterPhone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="5dp"
+        android:inputType="phone"
+        android:maxLength="14"
+        android:text="+98 "
+        android:textColor="#757575" />
+
+    <ImageButton
+        android:id="@+id/btnCall"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#0000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/call" />
+
+
+
+
+</LinearLayout>
